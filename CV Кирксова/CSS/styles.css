@@ -1,0 +1,81 @@
+.Container {
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px 300PX 200px;
+    grid-template-rows:  250px 250px 380px 380px;
+    justify-content: center;
+}
+
+.Zag {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+   text-align: center;
+    
+}
+.Content {
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+.Content1 {
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+}
+
+#Photo {
+    grid-column: 2;
+    grid-row: 1/3;
+    background-color: #8BCBDE;
+    width: auto;
+
+}
+
+#Contact{
+    grid-column: 3/6;
+    grid-row: 1;
+    background-color: #93cddf;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#About{
+    grid-column: 3/6;
+    grid-row: 2;
+    background-color: #a2d6e6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+#Skills {
+    grid-column: 2/4;
+    grid-row: 3;
+    background-color: #a2d6e6;
+    text-align: left;
+   
+}
+
+#Education {
+    grid-column: 2/4;
+    grid-row: 4;
+    background-color: #a2d6e6;
+    
+}
+
+#AddSkills {
+    grid-column: 4/6;
+    grid-row: 3;
+    background-color: #a2d6e6;
+    text-align: right;
+}
+
+#WorkExperience {
+    grid-column: 4/6;
+    grid-row: 4;
+    background-color: #a2d6e6;
+    text-align: right;
+}
